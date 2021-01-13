@@ -1,0 +1,11 @@
+{
+    "job_settings": {
+        "monitoringgaps":5,
+        "messages": [
+            "Hi, pay using this link:",
+            "https://yw/"
+        
+        ]
+        
+    }
+}
