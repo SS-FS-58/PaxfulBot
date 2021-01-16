@@ -1,9 +1,11 @@
 {
     "job_settings": {
-        "monitoringgaps":5,
+        "monitoringgaps":60,
         "messages": [
-            "Hi, pay using this link:",
-            "https://yw/"
+            "Hi, use the secure DPD Cart link below to pay:",
+            "https://yw8mpdkm3m7.dpdcart.com/",
+            " ",
+            "Click on \"Add to Cart\" and proceed to \"Checkout\" to complete the payment and provide proof/confirmation"
         
         ]
         
