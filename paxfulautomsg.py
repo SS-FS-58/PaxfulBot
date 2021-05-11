@@ -8,8 +8,8 @@ from datetime import datetime
 import requests  # pip install requests
 
 API_URL = "https://paxful.com/api/"
-API_KEY = "t5EMlNUdjJVnMRtwtFwbqmqpZhnnSffL"
-API_SECRET = "6Amc02jUEekD6Mf7XKdF66tQh4astSP0"
+API_KEY = ""
+API_SECRET = ""
 
 class PaxfulBot():
     def __init__(self, data):
@@ -109,7 +109,7 @@ class PaxfulBot():
                     else:
                         pass 
                     sleep(3)
-                self.setHashs = set(self.msgLists)
+                # self.setHashs = set(self.msgLists)
                 now = datetime.now()
                 # dd/mm/YY H:M:S
                 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
